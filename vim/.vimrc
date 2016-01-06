@@ -10,3 +10,4 @@ filetype plugin indent on
 
 
 
+set tw=90
