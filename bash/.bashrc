@@ -1,4 +1,4 @@
-PS1='\t \w$ '
+PS1='\t \u@\h \w$ '
 
 export HISTTIMEFORMAT="%s "
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo $$ $USER \
