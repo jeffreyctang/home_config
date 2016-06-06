@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/jtang/src/yorkie/deployment/configuration'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/jtang/keel/config'
+let g:netrw_dirhist_2='/home/jtang/keel/config/dump'
+let g:netrw_dirhist_3='/home/jtang/src/core'
+let g:netrw_dirhist_4='/home/jtang/jib/jib'
+let g:netrw_dirhist_5='/home/jtang/src/frisk/node_modules/core-api/node_modules/config'

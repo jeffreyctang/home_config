@@ -13,3 +13,10 @@ set showmatch
 
 
 let python_highlight_all = 1
+set modeline
+set modelines=5
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+  \| exe "normal! g'\"" | endif
+endif
