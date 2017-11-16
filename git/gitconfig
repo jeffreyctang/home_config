@@ -1,0 +1,10 @@
+[push]
+	default = current
+[user]
+	name = Jeff Tang
+	email = jetang@signpost.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	df = diff
