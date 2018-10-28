@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/jtang/keel/templates'
 let g:netrw_dirhist_2='/home/jtang/keel/keel'
+let g:netrw_dirhist_3='/Users/jefftang/vagrant/.vagrant'
+let g:netrw_dirhist_4='/Users/jefftang/vagrant/cookbooks/grovo/files'
+let g:netrw_dirhist_5='/Users/jefftang/aqr'
+let g:netrw_dirhist_6='/Users/jefftang/Downloads/vpn'
