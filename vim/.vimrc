@@ -78,3 +78,17 @@ syntax on
 Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 
+:imap jj <Esc>
+highlight SpellBad term=reverse ctermbg=Blue
+nmap ZZ :wqa<CR>
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+" let g:syntastic_python_pyflakes_exec=['/usr/local/bin/pyflakesXXXX']
+
+
+nnoremap <Tab> :lnext<CR>
+nnoremap <S-Tab>: lprev<CR>
+

@@ -11,7 +11,7 @@ set savehist=1
 set -o ignoreeof
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/go/bin:/usr/local/heroku/bin:$PATH"
 export EDITOR=vim
 
 alias g=git
